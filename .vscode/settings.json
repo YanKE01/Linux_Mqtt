@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "salof_defconfig.h": "c",
+        "mqttclient.h": "c",
+        "mqtt_log.h": "c"
+    }
+}
