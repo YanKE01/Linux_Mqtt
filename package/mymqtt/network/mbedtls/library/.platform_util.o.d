@@ -1,53 +1,39 @@
-platform_util.o: platform_util.c /usr/include/stdc-predef.h \
+platform_util.o: platform_util.c \
+ /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/stdc-predef.h \
  /home/yanke/linux/nxp-imx6ull/project/Mqtt/package/mymqtt/network/mbedtls/include/mbedtls/config.h \
  /home/yanke/linux/nxp-imx6ull/project/Mqtt/package/mymqtt/network/mbedtls/include/mbedtls/check_config.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/limits.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/syslimits.h \
- /usr/include/limits.h \
- /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
- /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
- /usr/include/x86_64-linux-gnu/bits/wordsize.h \
- /usr/include/x86_64-linux-gnu/bits/long-double.h \
- /usr/include/x86_64-linux-gnu/gnu/stubs.h \
- /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
- /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
- /usr/include/x86_64-linux-gnu/bits/local_lim.h \
- /usr/include/linux/limits.h \
- /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+ /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/5.5.0/include-fixed/limits.h \
+ /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/5.5.0/include-fixed/syslimits.h \
+ /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/limits.h \
+ /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/features.h \
+ /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/sys/cdefs.h \
+ /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/wordsize.h \
+ /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/gnu/stubs.h \
+ /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/gnu/stubs-hard.h \
+ /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/posix1_lim.h \
+ /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/local_lim.h \
+ /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/linux/limits.h \
+ /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/posix2_lim.h \
  /home/yanke/linux/nxp-imx6ull/project/Mqtt/package/mymqtt/network/mbedtls/include/mbedtls/platform_util.h \
  /home/yanke/linux/nxp-imx6ull/project/Mqtt/package/mymqtt/network/mbedtls/include/mbedtls/config.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h \
+ /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/5.5.0/include/stddef.h \
  /home/yanke/linux/nxp-imx6ull/project/Mqtt/package/mymqtt/network/mbedtls/include/mbedtls/platform.h \
- /usr/include/stdio.h /usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h \
- /usr/include/x86_64-linux-gnu/bits/types.h \
- /usr/include/x86_64-linux-gnu/bits/timesize.h \
- /usr/include/x86_64-linux-gnu/bits/typesizes.h \
- /usr/include/x86_64-linux-gnu/bits/time64.h \
- /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
- /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
- /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
- /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
- /usr/include/x86_64-linux-gnu/bits/stdio.h \
- /usr/include/x86_64-linux-gnu/bits/stdio2.h /usr/include/stdlib.h \
- /usr/include/x86_64-linux-gnu/bits/floatn.h \
- /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
- /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
- /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
- /usr/include/x86_64-linux-gnu/bits/stdlib.h /usr/include/time.h \
- /usr/include/x86_64-linux-gnu/bits/time.h \
- /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
- /usr/include/x86_64-linux-gnu/bits/endian.h \
- /usr/include/x86_64-linux-gnu/bits/endianness.h \
- /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+ /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/stdio.h \
+ /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/types.h \
+ /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/typesizes.h \
+ /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/libio.h \
+ /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/_G_config.h \
+ /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/wchar.h \
+ /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/5.5.0/include/stdarg.h \
+ /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/stdio_lim.h \
+ /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/sys_errlist.h \
+ /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/stdio.h \
+ /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/stdlib.h \
+ /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/stdlib-bsearch.h \
+ /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/stdlib-float.h \
+ /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/time.h \
+ /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/time.h \
  /home/yanke/linux/nxp-imx6ull/project/Mqtt/package/mymqtt/network/mbedtls/include/mbedtls/threading.h \
- /usr/include/string.h \
- /usr/include/x86_64-linux-gnu/bits/string_fortified.h
+ /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/string.h \
+ /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/string.h \
+ /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/string2.h

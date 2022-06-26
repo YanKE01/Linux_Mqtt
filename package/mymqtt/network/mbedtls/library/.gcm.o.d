@@ -1,38 +1,32 @@
-gcm.o: gcm.c /usr/include/stdc-predef.h \
+gcm.o: gcm.c \
+ /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/stdc-predef.h \
  /home/yanke/linux/nxp-imx6ull/project/Mqtt/package/mymqtt/network/mbedtls/include/mbedtls/config.h \
  /home/yanke/linux/nxp-imx6ull/project/Mqtt/package/mymqtt/network/mbedtls/include/mbedtls/check_config.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/limits.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/syslimits.h \
- /usr/include/limits.h \
- /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
- /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
- /usr/include/x86_64-linux-gnu/bits/wordsize.h \
- /usr/include/x86_64-linux-gnu/bits/long-double.h \
- /usr/include/x86_64-linux-gnu/gnu/stubs.h \
- /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
- /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
- /usr/include/x86_64-linux-gnu/bits/local_lim.h \
- /usr/include/linux/limits.h \
- /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+ /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/5.5.0/include-fixed/limits.h \
+ /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/5.5.0/include-fixed/syslimits.h \
+ /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/limits.h \
+ /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/features.h \
+ /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/sys/cdefs.h \
+ /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/wordsize.h \
+ /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/gnu/stubs.h \
+ /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/gnu/stubs-hard.h \
+ /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/posix1_lim.h \
+ /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/local_lim.h \
+ /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/linux/limits.h \
+ /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/posix2_lim.h \
  /home/yanke/linux/nxp-imx6ull/project/Mqtt/package/mymqtt/network/mbedtls/include/mbedtls/gcm.h \
  /home/yanke/linux/nxp-imx6ull/project/Mqtt/package/mymqtt/network/mbedtls/include/mbedtls/config.h \
  /home/yanke/linux/nxp-imx6ull/project/Mqtt/package/mymqtt/network/mbedtls/include/mbedtls/cipher.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h \
+ /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/5.5.0/include/stddef.h \
  /home/yanke/linux/nxp-imx6ull/project/Mqtt/package/mymqtt/network/mbedtls/include/mbedtls/platform_util.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h /usr/include/stdint.h \
- /usr/include/x86_64-linux-gnu/bits/types.h \
- /usr/include/x86_64-linux-gnu/bits/timesize.h \
- /usr/include/x86_64-linux-gnu/bits/typesizes.h \
- /usr/include/x86_64-linux-gnu/bits/time64.h \
- /usr/include/x86_64-linux-gnu/bits/wchar.h \
- /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
- /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+ /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/5.5.0/include/stdint.h \
+ /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/stdint.h \
+ /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/wchar.h \
  /home/yanke/linux/nxp-imx6ull/project/Mqtt/package/mymqtt/network/mbedtls/include/mbedtls/platform_util.h \
- /usr/include/string.h \
- /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /usr/include/strings.h \
- /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
- /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+ /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/string.h \
+ /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/xlocale.h \
+ /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/string.h \
+ /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/string2.h \
+ /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/stdlib.h \
  /home/yanke/linux/nxp-imx6ull/project/Mqtt/package/mymqtt/network/mbedtls/include/mbedtls/aesni.h \
  /home/yanke/linux/nxp-imx6ull/project/Mqtt/package/mymqtt/network/mbedtls/include/mbedtls/aes.h
