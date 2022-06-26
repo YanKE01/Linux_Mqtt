@@ -48,42 +48,8 @@ main.o: main.c \
  /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/sched.h \
  /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/xlocale.h \
  /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/setjmp.h \
- include/mqtt_config.h ../package/mymqtt/common/mqtt_log.h \
- ../package/mymqtt/common/mqtt_defconfig.h \
- /home/yanke/linux/nxp-imx6ull/project/Mqtt/applications/include/mqtt_config.h \
- /home/yanke/linux/nxp-imx6ull/project/Mqtt/package/mymqtt/common/log/salof.h \
- /home/yanke/linux/nxp-imx6ull/project/Mqtt/package/mymqtt/common/log/salof_defconfig.h \
- /home/yanke/linux/nxp-imx6ull/project/Mqtt/package/mymqtt/common/log/salof_config.h \
- /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/memory.h \
- /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/string.h \
- /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/string.h \
- /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/string2.h \
- /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/semaphore.h \
- /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/semaphore.h \
- /home/yanke/linux/nxp-imx6ull/project/Mqtt/package/mymqtt/common/log/format.h \
- /home/yanke/linux/nxp-imx6ull/project/Mqtt/package/mymqtt/common/log/fifo.h \
- ../package/mymqtt/mqttclient/mqttclient.h \
  /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/5.5.0/include/stdint.h \
  /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/stdint.h \
  /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/wchar.h \
- /home/yanke/linux/nxp-imx6ull/project/Mqtt/package/mymqtt/mqtt/MQTTPacket.h \
- /home/yanke/linux/nxp-imx6ull/project/Mqtt/package/mymqtt/mqtt/MQTTConnect.h \
- /home/yanke/linux/nxp-imx6ull/project/Mqtt/package/mymqtt/mqtt/MQTTPublish.h \
- /home/yanke/linux/nxp-imx6ull/project/Mqtt/package/mymqtt/mqtt/MQTTSubscribe.h \
- /home/yanke/linux/nxp-imx6ull/project/Mqtt/package/mymqtt/mqtt/MQTTUnsubscribe.h \
- /home/yanke/linux/nxp-imx6ull/project/Mqtt/package/mymqtt/mqtt/MQTTFormat.h \
- /home/yanke/linux/nxp-imx6ull/project/Mqtt/package/mymqtt/mqtt/StackTrace.h \
- /home/yanke/linux/nxp-imx6ull/project/Mqtt/package/mymqtt/mqtt/MQTTPacket.h \
- /home/yanke/linux/nxp-imx6ull/project/Mqtt/package/mymqtt/common/mqtt_list.h \
- /home/yanke/linux/nxp-imx6ull/project/Mqtt/package/mymqtt/platform/linux/platform_timer.h \
- /usr/local/arm/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/sys/time.h \
- /home/yanke/linux/nxp-imx6ull/project/Mqtt/package/mymqtt/platform/linux/platform_memory.h \
- /home/yanke/linux/nxp-imx6ull/project/Mqtt/package/mymqtt/platform/linux/platform_mutex.h \
- /home/yanke/linux/nxp-imx6ull/project/Mqtt/package/mymqtt/platform/linux/platform_thread.h \
- /home/yanke/linux/nxp-imx6ull/project/Mqtt/package/mymqtt/common/mqtt_defconfig.h \
- /home/yanke/linux/nxp-imx6ull/project/Mqtt/package/mymqtt/network/network.h \
- /home/yanke/linux/nxp-imx6ull/project/Mqtt/package/mymqtt/common/random.h \
- /home/yanke/linux/nxp-imx6ull/project/Mqtt/package/mymqtt/common/mqtt_error.h \
- /home/yanke/linux/nxp-imx6ull/project/Mqtt/package/mymqtt/common/mqtt_log.h \
- ../package/cjson/cJSON.h ../driver/include/flashled.h \
- ../driver/include/serial.h
+ include/mqtt.h include/task.h ../driver/include/driver.h \
+ ../driver/include/./flashled.h

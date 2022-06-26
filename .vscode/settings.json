@@ -7,6 +7,11 @@
         "flashled.h": "c",
         "unistd.h": "c",
         "errno.h": "c",
-        "serial.h": "c"
+        "serial.h": "c",
+        "mqtt.h": "c",
+        "cjson.h": "c",
+        "mqtt_config.h": "c",
+        "task.h": "c",
+        "driver.h": "c"
     }
 }
