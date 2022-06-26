@@ -2,6 +2,11 @@
     "files.associations": {
         "salof_defconfig.h": "c",
         "mqttclient.h": "c",
-        "mqtt_log.h": "c"
+        "mqtt_log.h": "c",
+        "sht20.h": "c",
+        "flashled.h": "c",
+        "unistd.h": "c",
+        "errno.h": "c",
+        "serial.h": "c"
     }
 }

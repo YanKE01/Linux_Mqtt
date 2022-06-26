@@ -1,5 +1,5 @@
 
-CROSS_COMPILE = 
+CROSS_COMPILE = arm-linux-gnueabihf-
 AS		= $(CROSS_COMPILE)as
 LD		= $(CROSS_COMPILE)ld
 CC		= $(CROSS_COMPILE)gcc
@@ -23,7 +23,8 @@ CFLAGS += -I $(shell pwd)/applications/include \
 		  -I $(shell pwd)/package/mymqtt/network/mbedtls/wrapper \
 		  -I $(shell pwd)/package/mymqtt/network/mbedtls/include/mbedtls \
 		  -I $(shell pwd)/package/mymqtt/mqtt \
-		  -I $(shell pwd)/package/mymqtt/network 
+		  -I $(shell pwd)/package/mymqtt/network \
+		  -I $(shell pwd)/driver/include
 
 LDFLAGS := -lpthread
 
@@ -36,8 +37,8 @@ TARGET := MQTT
 
 
 obj-y += applications/
-obj-y += package/mymqtt/
-
+obj-y += package/
+obj-y += driver/
 
 all : start_recursive_build $(TARGET)
 	@echo $(TARGET) has been built!

@@ -84,4 +84,6 @@ main.o: main.c \
  /home/yanke/linux/nxp-imx6ull/project/Mqtt/package/mymqtt/network/network.h \
  /home/yanke/linux/nxp-imx6ull/project/Mqtt/package/mymqtt/common/random.h \
  /home/yanke/linux/nxp-imx6ull/project/Mqtt/package/mymqtt/common/mqtt_error.h \
- /home/yanke/linux/nxp-imx6ull/project/Mqtt/package/mymqtt/common/mqtt_log.h
+ /home/yanke/linux/nxp-imx6ull/project/Mqtt/package/mymqtt/common/mqtt_log.h \
+ ../package/cjson/cJSON.h ../driver/include/flashled.h \
+ ../driver/include/serial.h
